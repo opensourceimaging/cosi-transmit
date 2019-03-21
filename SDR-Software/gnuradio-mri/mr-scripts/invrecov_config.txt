@@ -1,0 +1,28 @@
+TR,	                        .75,             s
+CF,	                        21.3e6,         hz
+offset,	                    0.,             hz
+p90,	                    300e-6,         s
+p180,	                    100e-6,         s
+BW,                         50000,          hz
+TE,	                        10e-3,          s
+TI,                         .01,            s
+SI,	                        128,            int
+NPE,	                    128,            int
+FOVread,	                20,             mm
+FOVphase,	                20,             mm
+slice_thick,	            5,              mm
+readdir,	                1,              (x:0 y:1 z:2)
+phasedir,	                0,              (x:0 y:1 z:2)
+slicedir,	                2,              (x:0 y:1 z:2)
+pre_dur,	                1000e-6,        s
+phase_dur,	                1000e-6,        s
+rewinder_length,	        1000e-6,        s
+nav,	                    3,              int
+TBW,	                    8,              unitless
+slice_shift,	            0,              hz
+ex_type,	                1,              (0:hard 1:sinc)
+ischopped,	                1,              (0:off 1:on)
+interactive_mode,	        1,              (0:off 1:on)
+param_file,                 none,           file_name
+leader_ID,                  7R2BUBU1,       string
+follower_ID,                3R2CU3U1,       string

@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<block>
+  <name>Triggered Vector Source</name>
+  <key>MRI_triggered_vector_source</key>
+  <category>MRI</category>
+  <import>import MRI</import>
+  <make>MRI.triggered_vector_source$(type.fcn)($data, $startamp, $deltaamp, $namps, $namprepeat)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Waveform Type</name>
+    <key>type</key>
+    <type>enum</type>
+    <option>
+      <name>Complex</name>
+      <key>complex</key>
+      <opt>fcn:</opt>
+    </option>
+    <option>
+      <name>Float</name>
+      <key>float</key>
+      <opt>fcn:_f</opt>
+    </option>
+  </param>
+  <param>
+    <name>Waveform Vector</name>
+    <key>data</key>
+    <value>[0,0,0]</value>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>Starting Amplitude</name>
+    <key>startamp</key>
+    <value>1.0</value>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Delta Amplitude</name>
+    <key>deltaamp</key>
+    <value>0.0</value>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Number Amplitudes</name>
+    <key>namps</key>
+    <value>1</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Number Amplitude Repeats</name>
+    <key>namprepeat</key>
+    <value>1</value>
+    <type>int</type>
+  </param>
+
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>Trigger Input</name>
+    <type>float</type>
+    <vlen>1</vlen>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>Waveform Output</name>
+    <type>$type</type>
+    <vlen>1</vlen>
+  </source>
+</block>

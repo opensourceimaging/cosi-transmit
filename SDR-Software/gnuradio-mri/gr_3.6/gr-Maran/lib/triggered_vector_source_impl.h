@@ -1,0 +1,65 @@
+/* -*- c++ -*- */
+/* 
+ * Copyright 2014 <+YOU OR YOUR COMPANY+>.
+ * 
+ * This is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3, or (at your option)
+ * any later version.
+ * 
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this software; see the file COPYING.  If not, write to
+ * the Free Software Foundation, Inc., 51 Franklin Street,
+ * Boston, MA 02110-1301, USA.
+ */
+
+#ifndef INCLUDED_MARAN_TRIGGERED_VECTOR_SOURCE_IMPL_H
+#define INCLUDED_MARAN_TRIGGERED_VECTOR_SOURCE_IMPL_H
+
+#include <Maran/triggered_vector_source.h>
+
+namespace gr {
+  namespace Maran {
+
+    class triggered_vector_source_impl : public triggered_vector_source
+    {
+     private:
+      // Nothing to declare in this block.
+      std::vector<gr_complex> d_data;
+      bool d_prevsamplehigh;   
+      unsigned int d_offset;   
+      unsigned int d_namps;
+      unsigned int d_ampind;
+      float d_startamp;
+      float d_deltaamp; 
+
+     public:
+      triggered_vector_source_impl(const std::vector<gr_complex> &data, const float startamp, const float deltaamp, const int namps);//, float startamp, float deltaamp, unsigned int namps);
+      ~triggered_vector_source_impl();
+
+      // Where all the action really happens
+      int work(int noutput_items,
+	       gr_vector_const_void_star &input_items,
+	       gr_vector_void_star &output_items);
+
+      void set_data(const std::vector<gr_complex> &data);
+      void set_amps(const float startamp, const float deltaamp, const int namps);
+      void restart();
+      int namps();
+      float startamp();
+      float deltaamp();
+      int ampind();
+      std::vector<gr_complex> data(); // function to access data
+
+    };
+
+  } // namespace Maran
+} // namespace gr
+
+#endif /* INCLUDED_MARAN_TRIGGERED_VECTOR_SOURCE_IMPL_H */
+

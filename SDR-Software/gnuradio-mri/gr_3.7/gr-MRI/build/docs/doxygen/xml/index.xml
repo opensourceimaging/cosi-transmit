@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classgr_1_1MRI_1_1gated__vector__sink" kind="class"><name>gr::MRI::gated_vector_sink</name>
+    <member refid="classgr_1_1MRI_1_1gated__vector__sink_1ae5a0d4479a0594347ef36893c3976a32" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1MRI_1_1gated__vector__sink_1a5ed15b457068f939facaef93012d7dd8" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1MRI_1_1gated__vector__sink_1a7ee9cddb49e85e18552206992f017aa2" kind="function"><name>data</name></member>
+    <member refid="classgr_1_1MRI_1_1gated__vector__sink_1aa60961121d415470379e0cac93d55283" kind="function"><name>reset</name></member>
+  </compound>
+  <compound refid="classgr_1_1MRI_1_1gated__vector__sink__impl" kind="class"><name>gr::MRI::gated_vector_sink_impl</name>
+    <member refid="classgr_1_1MRI_1_1gated__vector__sink__impl_1afb665451cdf26ed56831658d43387c77" kind="variable"><name>d_data</name></member>
+    <member refid="classgr_1_1MRI_1_1gated__vector__sink__impl_1a30ed2d2ff5594f1f14c0a68a5610a7fd" kind="function"><name>gated_vector_sink_impl</name></member>
+    <member refid="classgr_1_1MRI_1_1gated__vector__sink__impl_1a03ce48615911af63827b679788ceada1" kind="function"><name>~gated_vector_sink_impl</name></member>
+    <member refid="classgr_1_1MRI_1_1gated__vector__sink__impl_1ac2406335b49659ea74096041710604cc" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1MRI_1_1gated__vector__sink__impl_1a298193cc79f9f6b2ef00f87756883370" kind="function"><name>reset</name></member>
+    <member refid="classgr_1_1MRI_1_1gated__vector__sink__impl_1a6a2193b0f64686f7d9cb7bde27d7b309" kind="function"><name>data</name></member>
+  </compound>
+  <compound refid="classgr_1_1MRI_1_1triggered__vector__source" kind="class"><name>gr::MRI::triggered_vector_source</name>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source_1a00cfce7787dff761c294465a49aadbba" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source_1acb841781a34837956bc7e782097b20df" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source_1a10eadaecd30be988532614a9443cac53" kind="function"><name>set_data</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source_1adc647e34a38629efd8ed928c180720c0" kind="function"><name>set_amps</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source_1a9cc72c95c901c42382f2a9382807171a" kind="function"><name>restart</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source_1af90e275cbae4e724d793dba3855456f1" kind="function"><name>namps</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source_1a52875e9fef5e741e10db9cbd7c9c4377" kind="function"><name>namprepeat</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source_1accb0b91afc1955e48a8671af051912ba" kind="function"><name>startamp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source_1abd9bc71b5fca61a7f9253b8759800041" kind="function"><name>deltaamp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source_1a05df6a0df6853ad4ef2f432390522eba" kind="function"><name>ampind</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source_1a0e3d34eef574e4e24135f64517db8b4f" kind="function"><name>amprepeatind</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source_1ab126ab4bc6fd0007f476debd51968112" kind="function"><name>data</name></member>
+  </compound>
+  <compound refid="classgr_1_1MRI_1_1triggered__vector__source__f" kind="class"><name>gr::MRI::triggered_vector_source_f</name>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f_1af49cd8962d0cd87074d95940a2a6da90" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f_1ae7b20d0eeaade7404a1635ad12c2c3e6" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f_1a1e99cca8b5daad786a268a6f30efed57" kind="function"><name>set_data</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f_1ab5caf1890ae2bb26c28ccd5e53f1111b" kind="function"><name>set_amps</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f_1ab5dea3ec46e7aa4ac315cbb307e4ddea" kind="function"><name>restart</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f_1ae916f4500d95f1470ebf5f023fd12d25" kind="function"><name>namps</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f_1a48a86af94f9278112471cdaaa8eb6b38" kind="function"><name>namprepeat</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f_1a02e1cc327424f73c4efaf8b148aceaa9" kind="function"><name>startamp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f_1a6180cd96c4f784181d2a66a50ad08012" kind="function"><name>deltaamp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f_1a2803f616b60f29320d4fd66496a4936b" kind="function"><name>ampind</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f_1af5cee2a79ae3794c5ad9e0f46f4fc482" kind="function"><name>amprepeatind</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f_1a80af2f7b35bdb3e4dce0848899e33eac" kind="function"><name>data</name></member>
+  </compound>
+  <compound refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl" kind="class"><name>gr::MRI::triggered_vector_source_f_impl</name>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1ac4ccc2ac9b54c305bd7cb58ef32ad849" kind="variable"><name>d_data</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a7bd18fda6e8876f3247130c6c37a5d10" kind="variable"><name>d_prevsamplehigh</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a5ab3f4af874d6fcf518a342b2c9bdce2" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a564f4abe9abb067b1228fa6dfe1d1fbc" kind="variable"><name>d_namps</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1ab66247d59c877af10e7ce496efe85225" kind="variable"><name>d_namprepeat</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1ad8aa13b2b0c0f74bc751b18ea41d8616" kind="variable"><name>d_ampind</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1af74087d938b998ddb890223dbf3efd15" kind="variable"><name>d_amprepeatind</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a6ef5cc6d90bca0ccb930ab6584203999" kind="variable"><name>d_startamp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1aa6f71ab9ed8939e9a62e98254e0a66f7" kind="variable"><name>d_deltaamp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a673c3b3eb2577c82b8e87c9fa7e7a24b" kind="variable"><name>d_amp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a1141c478665464c13438919461f0e00b" kind="function"><name>triggered_vector_source_f_impl</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1af7f228b579bf21af022ded48dafc92a5" kind="function"><name>~triggered_vector_source_f_impl</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a31ed1cc8576b664d492416a3dd1d8ccc" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a8adc355d643b6d5261faf8de06a3382b" kind="function"><name>set_data</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a0f43d0d50ab67019d74c3fc4e61f0c62" kind="function"><name>set_amps</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1adb929e09fdb46e385ce16c81f05834a4" kind="function"><name>restart</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a3b89931131650e802f31d536fbe42dac" kind="function"><name>namps</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a97f864c6236f7c1dda59d3f3ee1a276a" kind="function"><name>namprepeat</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a288cc09796201e0ee1e368fdbd0d93bc" kind="function"><name>startamp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1ae1387f537f27575f849db3c0ef88307d" kind="function"><name>deltaamp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a8ab7d42d4e9a64df333abbef3c94042f" kind="function"><name>ampind</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1ad1d245e41ffd2ec04c57a3fae27da5c3" kind="function"><name>amprepeatind</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__f__impl_1a8eb8b5eeaf562563831a5096d3102c63" kind="function"><name>data</name></member>
+  </compound>
+  <compound refid="classgr_1_1MRI_1_1triggered__vector__source__impl" kind="class"><name>gr::MRI::triggered_vector_source_impl</name>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a45487e8db4785520ee21429744b48504" kind="variable"><name>d_data</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a3f656eec6ded3ddb13de312ce3379e69" kind="variable"><name>d_prevsamplehigh</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a41a13c5d88ee965c29b8748225c334f5" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a192515b24b691631e5a353d35a70a4d2" kind="variable"><name>d_namps</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1abbeb4b485d2c7fe281186b400289a1de" kind="variable"><name>d_namprepeat</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a3b675876f757b37cfd9753c5c9e9b50b" kind="variable"><name>d_ampind</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1aa6e3aa1fd4afd60f70eedcfde1785749" kind="variable"><name>d_amprepeatind</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a2293ab849809330b63a815d9be2519a3" kind="variable"><name>d_startamp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a8467e538f10d89eda8c3cbedbd6ed8fe" kind="variable"><name>d_deltaamp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1aa6c046684e2b87623706a0462f6304ac" kind="variable"><name>d_amp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1abfe7b90a2e2ecd9b92f1ab2dcefd9ca9" kind="function"><name>triggered_vector_source_impl</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a4c74114d9ee2d807c9225f30d35e770a" kind="function"><name>~triggered_vector_source_impl</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a104b157a8dc0c86633ad06b75c89d131" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1aff55d0d81d599c23f594d0bd1b91e67b" kind="function"><name>set_data</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1aa0e54c8ba36c8e69a5eacf80dca52144" kind="function"><name>set_amps</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1ad958e7d807ab0f31bb6f9ffd1d67f5b7" kind="function"><name>restart</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a4b0b53f36cd9cc8197443d776f9d2f3a" kind="function"><name>namps</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1ab1c358470034f552264f9404e665d935" kind="function"><name>namprepeat</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1ad65289deb192c8978b5c584bb2f5e6e6" kind="function"><name>startamp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a9dff5a48339c3abc752f2a0f91b71630" kind="function"><name>deltaamp</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a6ea4d8441a9e89b334fbccc9b6296301" kind="function"><name>ampind</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a9d110f37356504102bc4f44a3df64c03" kind="function"><name>amprepeatind</name></member>
+    <member refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1aa012cb5882ba7025a8d421db9875c1cd" kind="function"><name>data</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1MRI" kind="namespace"><name>gr::MRI</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1adb2da72b8f9d76b405f27496023e972a" kind="define"><name>MRI_API</name></member>
+  </compound>
+  <compound refid="gated__vector__sink_8h" kind="file"><name>gated_vector_sink.h</name>
+  </compound>
+  <compound refid="gated__vector__sink__impl_8h" kind="file"><name>gated_vector_sink_impl.h</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="triggered__vector__source_8h" kind="file"><name>triggered_vector_source.h</name>
+  </compound>
+  <compound refid="triggered__vector__source__f_8h" kind="file"><name>triggered_vector_source_f.h</name>
+  </compound>
+  <compound refid="triggered__vector__source__f__impl_8h" kind="file"><name>triggered_vector_source_f_impl.h</name>
+  </compound>
+  <compound refid="triggered__vector__source__impl_8h" kind="file"><name>triggered_vector_source_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_7a3065a6a9fb969c216a95c81d0d3106" kind="dir"><name>MRI</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

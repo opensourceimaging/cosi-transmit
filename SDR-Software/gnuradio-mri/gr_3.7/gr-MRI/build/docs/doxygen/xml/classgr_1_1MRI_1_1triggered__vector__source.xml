@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1MRI_1_1triggered__vector__source" kind="class" prot="public" abstract="yes">
+    <compoundname>gr::MRI::triggered_vector_source</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1MRI_1_1triggered__vector__source__impl" prot="public" virt="non-virtual">gr::MRI::triggered_vector_source_impl</derivedcompoundref>
+    <includes refid="triggered__vector__source_8h" local="no">triggered_vector_source.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1MRI_1_1triggered__vector__source_1a00cfce7787dff761c294465a49aadbba" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1MRI_1_1triggered__vector__source" kindref="compound">triggered_vector_source</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;triggered_vector_source&gt; gr::MRI::triggered_vector_source::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" line="39" column="1" bodyfile="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1MRI_1_1triggered__vector__source_1acb841781a34837956bc7e782097b20df" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1MRI_1_1triggered__vector__source_1a00cfce7787dff761c294465a49aadbba" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::MRI::triggered_vector_source::make</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;data, const float startamp, const float deltaamp, const int namps, const int namprepeat)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>startamp</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>deltaamp</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>namps</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>namprepeat</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1MRI_1_1triggered__vector__source" kindref="compound">MRI::triggered_vector_source</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1MRI_1_1triggered__vector__source" kindref="compound">MRI::triggered_vector_source</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1MRI_1_1triggered__vector__source_1acb841781a34837956bc7e782097b20df" kindref="member">MRI::triggered_vector_source::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1MRI_1_1triggered__vector__source_1a10eadaecd30be988532614a9443cac53" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::MRI::triggered_vector_source::set_data</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;data)=0</argsstring>
+        <name>set_data</name>
+        <reimplementedby refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1aff55d0d81d599c23f594d0bd1b91e67b">set_data</reimplementedby>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MRI_1_1triggered__vector__source_1adc647e34a38629efd8ed928c180720c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::MRI::triggered_vector_source::set_amps</definition>
+        <argsstring>(const float startamp, const float deltaamp, const int namps, const int namprepeat)=0</argsstring>
+        <name>set_amps</name>
+        <reimplementedby refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1aa0e54c8ba36c8e69a5eacf80dca52144">set_amps</reimplementedby>
+        <param>
+          <type>const float</type>
+          <declname>startamp</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>deltaamp</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>namps</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>namprepeat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MRI_1_1triggered__vector__source_1a9cc72c95c901c42382f2a9382807171a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::MRI::triggered_vector_source::restart</definition>
+        <argsstring>()=0</argsstring>
+        <name>restart</name>
+        <reimplementedby refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1ad958e7d807ab0f31bb6f9ffd1d67f5b7">restart</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MRI_1_1triggered__vector__source_1af90e275cbae4e724d793dba3855456f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int gr::MRI::triggered_vector_source::namps</definition>
+        <argsstring>()=0</argsstring>
+        <name>namps</name>
+        <reimplementedby refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a4b0b53f36cd9cc8197443d776f9d2f3a">namps</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MRI_1_1triggered__vector__source_1a52875e9fef5e741e10db9cbd7c9c4377" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int gr::MRI::triggered_vector_source::namprepeat</definition>
+        <argsstring>()=0</argsstring>
+        <name>namprepeat</name>
+        <reimplementedby refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1ab1c358470034f552264f9404e665d935">namprepeat</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MRI_1_1triggered__vector__source_1accb0b91afc1955e48a8671af051912ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::MRI::triggered_vector_source::startamp</definition>
+        <argsstring>()=0</argsstring>
+        <name>startamp</name>
+        <reimplementedby refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1ad65289deb192c8978b5c584bb2f5e6e6">startamp</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MRI_1_1triggered__vector__source_1abd9bc71b5fca61a7f9253b8759800041" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::MRI::triggered_vector_source::deltaamp</definition>
+        <argsstring>()=0</argsstring>
+        <name>deltaamp</name>
+        <reimplementedby refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a9dff5a48339c3abc752f2a0f91b71630">deltaamp</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MRI_1_1triggered__vector__source_1a05df6a0df6853ad4ef2f432390522eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int gr::MRI::triggered_vector_source::ampind</definition>
+        <argsstring>()=0</argsstring>
+        <name>ampind</name>
+        <reimplementedby refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a6ea4d8441a9e89b334fbccc9b6296301">ampind</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MRI_1_1triggered__vector__source_1a0e3d34eef574e4e24135f64517db8b4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int gr::MRI::triggered_vector_source::amprepeatind</definition>
+        <argsstring>()=0</argsstring>
+        <name>amprepeatind</name>
+        <reimplementedby refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1a9d110f37356504102bc4f44a3df64c03">amprepeatind</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MRI_1_1triggered__vector__source_1ab126ab4bc6fd0007f476debd51968112" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>virtual std::vector&lt;gr_complex&gt; gr::MRI::triggered_vector_source::data</definition>
+        <argsstring>()=0</argsstring>
+        <name>data</name>
+        <reimplementedby refid="classgr_1_1MRI_1_1triggered__vector__source__impl_1aa012cb5882ba7025a8d421db9875c1cd">data</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" line="60" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="11">
+        <label>gr::MRI::triggered_vector_source</label>
+        <link refid="classgr_1_1MRI_1_1triggered__vector__source"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="13">
+        <label>gr::MRI::triggered_vector_source_impl</label>
+        <link refid="classgr_1_1MRI_1_1triggered__vector__source__impl"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>gr::MRI::triggered_vector_source</label>
+        <link refid="classgr_1_1MRI_1_1triggered__vector__source"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" line="37" column="1" bodyfile="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h" bodystart="36" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classgr_1_1MRI_1_1triggered__vector__source_1a05df6a0df6853ad4ef2f432390522eba" prot="public" virt="pure-virtual"><scope>gr::MRI::triggered_vector_source</scope><name>ampind</name></member>
+      <member refid="classgr_1_1MRI_1_1triggered__vector__source_1a0e3d34eef574e4e24135f64517db8b4f" prot="public" virt="pure-virtual"><scope>gr::MRI::triggered_vector_source</scope><name>amprepeatind</name></member>
+      <member refid="classgr_1_1MRI_1_1triggered__vector__source_1ab126ab4bc6fd0007f476debd51968112" prot="public" virt="pure-virtual"><scope>gr::MRI::triggered_vector_source</scope><name>data</name></member>
+      <member refid="classgr_1_1MRI_1_1triggered__vector__source_1abd9bc71b5fca61a7f9253b8759800041" prot="public" virt="pure-virtual"><scope>gr::MRI::triggered_vector_source</scope><name>deltaamp</name></member>
+      <member refid="classgr_1_1MRI_1_1triggered__vector__source_1acb841781a34837956bc7e782097b20df" prot="public" virt="non-virtual"><scope>gr::MRI::triggered_vector_source</scope><name>make</name></member>
+      <member refid="classgr_1_1MRI_1_1triggered__vector__source_1a52875e9fef5e741e10db9cbd7c9c4377" prot="public" virt="pure-virtual"><scope>gr::MRI::triggered_vector_source</scope><name>namprepeat</name></member>
+      <member refid="classgr_1_1MRI_1_1triggered__vector__source_1af90e275cbae4e724d793dba3855456f1" prot="public" virt="pure-virtual"><scope>gr::MRI::triggered_vector_source</scope><name>namps</name></member>
+      <member refid="classgr_1_1MRI_1_1triggered__vector__source_1a9cc72c95c901c42382f2a9382807171a" prot="public" virt="pure-virtual"><scope>gr::MRI::triggered_vector_source</scope><name>restart</name></member>
+      <member refid="classgr_1_1MRI_1_1triggered__vector__source_1adc647e34a38629efd8ed928c180720c0" prot="public" virt="pure-virtual"><scope>gr::MRI::triggered_vector_source</scope><name>set_amps</name></member>
+      <member refid="classgr_1_1MRI_1_1triggered__vector__source_1a10eadaecd30be988532614a9443cac53" prot="public" virt="pure-virtual"><scope>gr::MRI::triggered_vector_source</scope><name>set_data</name></member>
+      <member refid="classgr_1_1MRI_1_1triggered__vector__source_1a00cfce7787dff761c294465a49aadbba" prot="public" virt="non-virtual"><scope>gr::MRI::triggered_vector_source</scope><name>sptr</name></member>
+      <member refid="classgr_1_1MRI_1_1triggered__vector__source_1accb0b91afc1955e48a8671af051912ba" prot="public" virt="pure-virtual"><scope>gr::MRI::triggered_vector_source</scope><name>startamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

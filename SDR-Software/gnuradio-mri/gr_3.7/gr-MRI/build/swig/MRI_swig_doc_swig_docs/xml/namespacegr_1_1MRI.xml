@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacegr_1_1MRI" kind="namespace">
+    <compoundname>gr::MRI</compoundname>
+    <innerclass refid="classgr_1_1MRI_1_1gated__vector__sink" prot="public">gr::MRI::gated_vector_sink</innerclass>
+    <innerclass refid="classgr_1_1MRI_1_1triggered__vector__source" prot="public">gr::MRI::triggered_vector_source</innerclass>
+    <innerclass refid="classgr_1_1MRI_1_1triggered__vector__source__f" prot="public">gr::MRI::triggered_vector_source_f</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/gated_vector_sink.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

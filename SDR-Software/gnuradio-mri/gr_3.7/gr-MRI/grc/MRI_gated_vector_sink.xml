@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<block>
+  <name>Gated Vector Sink</name>
+  <key>MRI_gated_vector_sink</key>
+  <category>MRI</category>
+  <import>import MRI</import>
+  <make>MRI.gated_vector_sink()</make>
+
+  <sink>
+    <name>Gate Input</name>
+    <type>float</type>
+    <vlen>1</vlen>
+  </sink>
+
+  <sink>
+    <name>Signal Input</name>
+    <type>complex</type>
+    <vlen>1</vlen>
+  </sink>
+
+</block>

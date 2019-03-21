@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="triggered__vector__source_8h" kind="file">
+    <compoundname>triggered_vector_source.h</compoundname>
+    <includes refid="api_8h" local="no">MRI/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="triggered__vector__source__impl_8h" local="no">triggered_vector_source_impl.h</includedby>
+    <incdepgraph>
+      <node id="28">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="27">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="26">
+        <label>MRI/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>triggered_vector_source.h</label>
+        <link refid="triggered_vector_source.h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="30">
+        <label>triggered_vector_source_impl.h</label>
+        <link refid="triggered__vector__source__impl_8h"/>
+      </node>
+      <node id="29">
+        <label>triggered_vector_source.h</label>
+        <link refid="triggered_vector_source.h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1MRI_1_1triggered__vector__source" prot="public">gr::MRI::triggered_vector_source</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1MRI">gr::MRI</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/triggered_vector_source.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/build/swig/CMakeFiles/MRI_swig_swig_2d0df.dir
+/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/build/swig/CMakeFiles/MRI_swig_swig_doc.dir
+/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/build/swig/CMakeFiles/_MRI_swig.dir
+/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/build/swig/CMakeFiles/_MRI_swig_doc_tag.dir
+/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/build/swig/CMakeFiles/_MRI_swig_swig_tag.dir
+/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/build/lib/CMakeFiles/gnuradio-MRI.dir
+/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/build/python/CMakeFiles/pygen_python_f794f.dir
+/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/build/swig/CMakeFiles/pygen_swig_ce6ab.dir
+/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/build/lib/CMakeFiles/test-MRI.dir
+/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/build/CMakeFiles/uninstall.dir

@@ -1,0 +1,104 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{plos2015}
+\citation{jie:hbmr:2005,wright:2002}
+\citation{peng:domp:2012}
+\citation{parnell:dpns:2008}
+\citation{bodurka:smmd:2004,tang:adrm:2012,stang:medusa:2012}
+\citation{stang:medusa:2012,Toronto145,4915785}
+\citation{barmet:atrs:2009,sipila:2HTR:2011,sipila:dmrf:2009}
+\citation{gengying:dnmr:2001,jie:hbmr:2005,takeda:ahif:2007,opencorenmr,tang:2011,peng:domp:2012,stang:medusa:2012}
+\citation{gnuradiovendors}
+\citation{PER-GRA:2007}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Basic single-pulse GNU Radio flowgraph without gr-MRI elements. The outlined boxes contain: A) The excitation pulse generation blocks, B) the USRP Sink block which sends the excitation pulse to the radio, C) the USRP Source block which receives baseband RF signals from the radio, and D) the oscilloscope block to continuously display the received signal.\relax }}{3}{figure.caption.5}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:singlepulse}{{1}{3}{Basic single-pulse GNU Radio flowgraph without gr-MRI elements. The outlined boxes contain: A) The excitation pulse generation blocks, B) the USRP Sink block which sends the excitation pulse to the radio, C) the USRP Source block which receives baseband RF signals from the radio, and D) the oscilloscope block to continuously display the received signal.\relax }{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces A) The Triggered Vector Source GNU Radio block. The orange box on the left is the block's input socket and the blue box on the left is its output socket. B) The Triggered Vector Source block's settings. C) The Gated Vector Sink GNU Radio block. The blue box on the left represents the complex data input socket, and the orange box represents the gate socket which controls data recording. D) The Gated Vector Sink block's settings.\relax }}{4}{figure.caption.7}}
+\newlabel{fig:tvs}{{2}{4}{A) The Triggered Vector Source GNU Radio block. The orange box on the left is the block's input socket and the blue box on the left is its output socket. B) The Triggered Vector Source block's settings. C) The Gated Vector Sink GNU Radio block. The blue box on the left represents the complex data input socket, and the orange box represents the gate socket which controls data recording. D) The Gated Vector Sink block's settings.\relax }{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {paragraph}{Basic single-pulse: \texttt  {FID.py}}{4}{section*.9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Sequence timing and RF excitation flowgraph of the single-pulse sequence \texttt  {FID.py}. The outlined boxes are: A) The TR square wave signal generator, which triggers all sequence events. B) Triggered Vector Sources that generate an RF excitation pulse (top) and a signal recording gate (bottom). C) A transmit-enable pulse is generated from the RF excitation pulse to unblank the RF amplifier. D) The USRP Sink block routes the baseband signals to three channels on the SDR, operating at RF (for the excitation pulse and the signal recording gate) or DC (for the transmit-enable pulse).\relax }}{5}{figure.caption.10}}
+\newlabel{fig:txflow}{{3}{5}{Sequence timing and RF excitation flowgraph of the single-pulse sequence \texttt {FID.py}. The outlined boxes are: A) The TR square wave signal generator, which triggers all sequence events. B) Triggered Vector Sources that generate an RF excitation pulse (top) and a signal recording gate (bottom). C) A transmit-enable pulse is generated from the RF excitation pulse to unblank the RF amplifier. D) The USRP Sink block routes the baseband signals to three channels on the SDR, operating at RF (for the excitation pulse and the signal recording gate) or DC (for the transmit-enable pulse).\relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces RF Receive flowgraph of the single-pulse sequence \texttt  {FID.py}. The outlined boxes are: A) the USRP Source, which converts received data into a complex data stream; B) a group of blocks used to normalize the signal recording gate pulse's amplitude while preserving its phase; C) a multiply conjugate block that removes the signal recording gate pulse's phase from the FID signal phase to correct phase drifts; D) the gated vector sink which stores the raw data to a vector; and E) a QT GUI sink used to display the received signal in real time.\relax }}{5}{figure.caption.11}}
+\newlabel{fig:rxflow}{{4}{5}{RF Receive flowgraph of the single-pulse sequence \texttt {FID.py}. The outlined boxes are: A) the USRP Source, which converts received data into a complex data stream; B) a group of blocks used to normalize the signal recording gate pulse's amplitude while preserving its phase; C) a multiply conjugate block that removes the signal recording gate pulse's phase from the FID signal phase to correct phase drifts; D) the gated vector sink which stores the raw data to a vector; and E) a QT GUI sink used to display the received signal in real time.\relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Screen shot of the receive data shown in the QT GUI window while running the spin echo sequence \texttt  {spinecho.py}.\relax }}{6}{figure.caption.12}}
+\newlabel{fig:gui}{{5}{6}{Screen shot of the receive data shown in the QT GUI window while running the spin echo sequence \texttt {spinecho.py}.\relax }{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {paragraph}{Gradient-recalled echo: \texttt  {gradecho.py}}{6}{section*.13}}
+\@writefile{toc}{\contentsline {paragraph}{Spin echo: \texttt  {spinecho.py}}{6}{section*.14}}
+\@writefile{toc}{\contentsline {paragraph}{Inversion recovery: \texttt  {invrecov.py}}{7}{section*.15}}
+\@writefile{toc}{\contentsline {paragraph}{Template sequence: \texttt  {template.py}}{7}{section*.18}}
+\@writefile{toc}{\contentsline {paragraph}{Transmit/Receive Delay}{7}{section*.20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Synchronization section of the imaging sequence flowgraphs.\relax }}{7}{figure.caption.21}}
+\newlabel{fig:syncflow}{{6}{7}{Synchronization section of the imaging sequence flowgraphs.\relax }{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {paragraph}{Center Frequency and Transmit Voltage}{7}{section*.22}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Parameters that can be adjusted dynamically or in configuration files for each of the pulse sequences.\relax }}{8}{table.caption.16}}
+\newlabel{table:sequenceparams}{{1}{8}{Parameters that can be adjusted dynamically or in configuration files for each of the pulse sequences.\relax }{table.caption.16}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces User interface functions defined by the three imaging pulse sequences.\relax }}{9}{table.caption.17}}
+\newlabel{table:sequencefunctions}{{2}{9}{User interface functions defined by the three imaging pulse sequences.\relax }{table.caption.17}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Center frequency and power calibration functions implemented in \texttt  {FID.py}.\relax }}{10}{table.caption.23}}
+\newlabel{table:calib_functions}{{3}{10}{Center frequency and power calibration functions implemented in \texttt {FID.py}.\relax }{table.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces User-visible plots that appear when running (A) the center frequency calibration function, and (B) the 90 degree pulse power calibration function. Both are defined in \texttt  {FID.py}.\relax }}{10}{figure.caption.24}}
+\newlabel{fig:calib}{{7}{10}{User-visible plots that appear when running (A) the center frequency calibration function, and (B) the 90 degree pulse power calibration function. Both are defined in \texttt {FID.py}.\relax }{figure.caption.24}{}}
+\@writefile{toc}{\contentsline {paragraph}{Gradient strength}{10}{section*.25}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Gradient calibration functions defined by the gradcalib.py script.\relax }}{11}{table.caption.26}}
+\newlabel{table:gradcalib_functions}{{4}{11}{Gradient calibration functions defined by the gradcalib.py script.\relax }{table.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Workflow illustration for the \texttt  {spinecho.py} imaging sequence. Dotted lines in the workflow steps indicate optional steps that can be turned on or off using the \texttt  {interactive\_mode} parameter in the configuration file. The second column shows commands as the user would enter them into the IPython shell. The third column describes the data that is used or produced by each command, and the fourth column shows any images or plots that are created.\relax }}{11}{figure.caption.28}}
+\newlabel{fig:workflow}{{8}{11}{Workflow illustration for the \texttt {spinecho.py} imaging sequence. Dotted lines in the workflow steps indicate optional steps that can be turned on or off using the \texttt {interactive\_mode} parameter in the configuration file. The second column shows commands as the user would enter them into the IPython shell. The third column describes the data that is used or produced by each command, and the fourth column shows any images or plots that are created.\relax }{figure.caption.28}{}}
+\newlabel{Experiments}{{}{12}{Experiments}{section*.30}{}}
+\@writefile{toc}{\contentsline {paragraph}{SDR Hardware}{12}{section*.31}}
+\citation{janki:2013}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Mapping of pulse waveforms to transmit and receive ports on the two SDRs used for the imaging experiments. The leader SDR generated and received all RF signals, and the follower SDR generated all gradient pulses.\relax }}{13}{table.caption.32}}
+\newlabel{table:hardware}{{5}{13}{Mapping of pulse waveforms to transmit and receive ports on the two SDRs used for the imaging experiments. The leader SDR generated and received all RF signals, and the follower SDR generated all gradient pulses.\relax }{table.caption.32}{}}
+\@writefile{toc}{\contentsline {paragraph}{Imaging Scans}{13}{section*.33}}
+\@writefile{toc}{\contentsline {paragraph}{Frequency-swept pulse generation}{13}{section*.34}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Parameters for each imaging scan.\relax }}{14}{table.caption.35}}
+\newlabel{table:parameters}{{6}{14}{Parameters for each imaging scan.\relax }{table.caption.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces {(A) Slice-selective gradient-recalled echo pulse sequence generated by \textit  {gradecho.py}. (B) A 128 $\times $ 128 image acquired with 4 mm slice thickness. Arrows indicate chemical shift artifacts in the frequency-encoded (horizontal) dimension The phantom width in the image is 15.05 $\times $ 15.28mm, as calculated from the width of the phantom in pixels and the specified FOV. (C) Comparable gradient-recalled echo image acquired using the Maran spectrometer.}\relax }}{14}{figure.caption.37}}
+\newlabel{fig:gre_image}{{9}{14}{{(A) Slice-selective gradient-recalled echo pulse sequence generated by \textit {gradecho.py}. (B) A 128 $\times $ 128 image acquired with 4 mm slice thickness. Arrows indicate chemical shift artifacts in the frequency-encoded (horizontal) dimension The phantom width in the image is 15.05 $\times $ 15.28mm, as calculated from the width of the phantom in pixels and the specified FOV. (C) Comparable gradient-recalled echo image acquired using the Maran spectrometer.}\relax }{figure.caption.37}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces {(A) Slice-selective spin echo pulse sequence generated by \texttt  {slicespin.py}. (B) A 128$\times $128 image acquired with 4 mm slice thickness. The arrow indicates a small chemical shift artifact in the frequency-encoded (horizontal) dimension. The phantom width in the image is 15.25 $\times $ 15.18mm, as calculated from the width of the phantom in pixels and the specified FOV. (C) Comparable spin echo image acquired using the Maran spectrometer.}\relax }}{15}{figure.caption.38}}
+\newlabel{fig:se_image}{{10}{15}{{(A) Slice-selective spin echo pulse sequence generated by \texttt {slicespin.py}. (B) A 128$\times $128 image acquired with 4 mm slice thickness. The arrow indicates a small chemical shift artifact in the frequency-encoded (horizontal) dimension. The phantom width in the image is 15.25 $\times $ 15.18mm, as calculated from the width of the phantom in pixels and the specified FOV. (C) Comparable spin echo image acquired using the Maran spectrometer.}\relax }{figure.caption.38}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces {(A) Slice-selective inversion recovery spin echo pulse sequence generated by \textit  {invrecov.py}. (B) A series of 64$\times $64 images with varying inversion times, acquired with 4 mm slice thickness.}\relax }}{15}{figure.caption.40}}
+\newlabel{fig:ir_image}{{11}{15}{{(A) Slice-selective inversion recovery spin echo pulse sequence generated by \textit {invrecov.py}. (B) A series of 64$\times $64 images with varying inversion times, acquired with 4 mm slice thickness.}\relax }{figure.caption.40}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Frequency of desynchronization events during scans with and without entering interactive mode beforehand.\relax }}{15}{table.caption.42}}
+\newlabel{table:sync_table}{{7}{15}{Frequency of desynchronization events during scans with and without entering interactive mode beforehand.\relax }{table.caption.42}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces {Comparison of nominal and measured frequency-swept pulses generated by the Maran spectrometer and the USRP1 SDR.}\relax }}{16}{figure.caption.44}}
+\newlabel{fig:f_sweep}{{12}{16}{{Comparison of nominal and measured frequency-swept pulses generated by the Maran spectrometer and the USRP1 SDR.}\relax }{figure.caption.44}{}}
+\bibdata{gr_MRI}
+\bibcite{jie:hbmr:2005}{1}
+\bibcite{wright:2002}{2}
+\bibcite{peng:domp:2012}{3}
+\bibcite{parnell:dpns:2008}{4}
+\bibcite{bodurka:smmd:2004}{5}
+\bibcite{tang:adrm:2012}{6}
+\bibcite{stang:medusa:2012}{7}
+\bibcite{Toronto145}{8}
+\bibcite{4915785}{9}
+\bibcite{barmet:atrs:2009}{10}
+\bibcite{sipila:2HTR:2011}{11}
+\bibcite{sipila:dmrf:2009}{12}
+\bibcite{gengying:dnmr:2001}{13}
+\bibcite{takeda:ahif:2007}{14}
+\bibcite{opencorenmr}{15}
+\bibcite{tang:2011}{16}
+\bibcite{gnuradiovendors}{17}
+\bibcite{PER-GRA:2007}{18}
+\bibcite{janki:2013}{19}
+\bibstyle{plos2015}
+\newlabel{LastPage}{{}{18}{}{page.18}{}}
+\xdef\lastpage@lastpage{18}
+\xdef\lastpage@lastpageHy{18}

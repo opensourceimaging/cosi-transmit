@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<block>
+  <name>Triggered vector source</name>
+  <key>Maran_triggered_vector_source</key>
+  <category>Maran</category>
+  <import>import Maran</import>
+  <make>Maran.triggered_vector_source($data,$startamp,$deltaamp,$numamps)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Vector</name>
+    <key>data</key>
+    <value>[0,0,0]</value>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>NumAmps</name>
+    <key>numamps</key>
+    <value>1</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>StartAmp</name>
+    <key>startamp</key>
+    <value>1.0</value>
+    <type>float</type>
+  </param>
+  <param>
+    <name>DeltaAmp</name>
+    <key>deltaamp</key>
+    <value>0.0</value>
+    <type>float</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>float</type>
+    <vlen>1</vlen>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <vlen>1</vlen>
+  </source>
+</block>

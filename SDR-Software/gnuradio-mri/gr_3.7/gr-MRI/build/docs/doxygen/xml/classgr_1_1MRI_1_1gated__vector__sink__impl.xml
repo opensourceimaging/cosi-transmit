@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1MRI_1_1gated__vector__sink__impl" kind="class" prot="public">
+    <compoundname>gr::MRI::gated_vector_sink_impl</compoundname>
+    <basecompoundref refid="classgr_1_1MRI_1_1gated__vector__sink" prot="public" virt="non-virtual">gr::MRI::gated_vector_sink</basecompoundref>
+    <includes refid="gated__vector__sink__impl_8h" local="no">gated_vector_sink_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1MRI_1_1gated__vector__sink__impl_1afb665451cdf26ed56831658d43387c77" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::MRI::gated_vector_sink_impl::d_data</definition>
+        <argsstring></argsstring>
+        <name>d_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/lib/gated_vector_sink_impl.h" line="32" column="1" bodyfile="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/lib/gated_vector_sink_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1MRI_1_1gated__vector__sink__impl_1a30ed2d2ff5594f1f14c0a68a5610a7fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::MRI::gated_vector_sink_impl::gated_vector_sink_impl</definition>
+        <argsstring>()</argsstring>
+        <name>gated_vector_sink_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/lib/gated_vector_sink_impl.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MRI_1_1gated__vector__sink__impl_1a03ce48615911af63827b679788ceada1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::MRI::gated_vector_sink_impl::~gated_vector_sink_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~gated_vector_sink_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/lib/gated_vector_sink_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MRI_1_1gated__vector__sink__impl_1ac2406335b49659ea74096041710604cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::MRI::gated_vector_sink_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/lib/gated_vector_sink_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MRI_1_1gated__vector__sink__impl_1a298193cc79f9f6b2ef00f87756883370" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::MRI::gated_vector_sink_impl::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <reimplements refid="classgr_1_1MRI_1_1gated__vector__sink_1aa60961121d415470379e0cac93d55283">reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/lib/gated_vector_sink_impl.h" line="42" column="1" bodyfile="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/lib/gated_vector_sink_impl.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MRI_1_1gated__vector__sink__impl_1a6a2193b0f64686f7d9cb7bde27d7b309" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::MRI::gated_vector_sink_impl::data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <reimplements refid="classgr_1_1MRI_1_1gated__vector__sink_1a7ee9cddb49e85e18552206992f017aa2">data</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/lib/gated_vector_sink_impl.h" line="43" column="1" bodyfile="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/lib/gated_vector_sink_impl.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>gr::MRI::gated_vector_sink</label>
+        <link refid="classgr_1_1MRI_1_1gated__vector__sink"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>sync_block</label>
+      </node>
+      <node id="5">
+        <label>gr::MRI::gated_vector_sink_impl</label>
+        <link refid="classgr_1_1MRI_1_1gated__vector__sink__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>gr::MRI::gated_vector_sink</label>
+        <link refid="classgr_1_1MRI_1_1gated__vector__sink"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>sync_block</label>
+      </node>
+      <node id="8">
+        <label>gr::MRI::gated_vector_sink_impl</label>
+        <link refid="classgr_1_1MRI_1_1gated__vector__sink__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/lib/gated_vector_sink_impl.h" line="30" column="1" bodyfile="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/lib/gated_vector_sink_impl.h" bodystart="29" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classgr_1_1MRI_1_1gated__vector__sink__impl_1afb665451cdf26ed56831658d43387c77" prot="private" virt="non-virtual"><scope>gr::MRI::gated_vector_sink_impl</scope><name>d_data</name></member>
+      <member refid="classgr_1_1MRI_1_1gated__vector__sink__impl_1a6a2193b0f64686f7d9cb7bde27d7b309" prot="public" virt="virtual"><scope>gr::MRI::gated_vector_sink_impl</scope><name>data</name></member>
+      <member refid="classgr_1_1MRI_1_1gated__vector__sink__impl_1a30ed2d2ff5594f1f14c0a68a5610a7fd" prot="public" virt="non-virtual"><scope>gr::MRI::gated_vector_sink_impl</scope><name>gated_vector_sink_impl</name></member>
+      <member refid="classgr_1_1MRI_1_1gated__vector__sink_1a5ed15b457068f939facaef93012d7dd8" prot="public" virt="non-virtual"><scope>gr::MRI::gated_vector_sink_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1MRI_1_1gated__vector__sink__impl_1a298193cc79f9f6b2ef00f87756883370" prot="public" virt="virtual"><scope>gr::MRI::gated_vector_sink_impl</scope><name>reset</name></member>
+      <member refid="classgr_1_1MRI_1_1gated__vector__sink_1ae5a0d4479a0594347ef36893c3976a32" prot="public" virt="non-virtual"><scope>gr::MRI::gated_vector_sink_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1MRI_1_1gated__vector__sink__impl_1ac2406335b49659ea74096041710604cc" prot="public" virt="non-virtual"><scope>gr::MRI::gated_vector_sink_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1MRI_1_1gated__vector__sink__impl_1a03ce48615911af63827b679788ceada1" prot="public" virt="non-virtual"><scope>gr::MRI::gated_vector_sink_impl</scope><name>~gated_vector_sink_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

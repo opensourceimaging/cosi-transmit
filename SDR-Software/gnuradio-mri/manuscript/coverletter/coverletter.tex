@@ -1,0 +1,117 @@
+\documentclass[11pt]{article}
+
+
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage{fancyhdr}
+\usepackage{ifpdf}
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+\else
+  \usepackage[dvips]{graphicx}\fi
+
+
+\textwidth 6.6in
+%\textheight 9in
+%\headheight 2in
+\voffset 0.65in
+\headheight 3in
+
+\pagestyle{fancy}
+\rhead{\includegraphics[width=3in]{vu02a.pdf}}
+\chead{}
+\lhead{\includegraphics[width=0.7in]{New_VUIIS_Logo.png}}
+\lfoot{}
+\cfoot{\small 1161 21st Ave South, AA-3114 MCN, Nashville, TN 37232-2310    Tel: (919) 649 4699  Fax: (615) 322 0734}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\usepackage[scale=0.775]{geometry}
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+
+\def\firstname{William A.}
+\def\familyname{Grissom, Ph.D.}
+\def\FileAuthor{\firstname \familyname}
+\def\FileTitle{\firstname \familyname's Cover Letter}
+\def\FileSubject{Support Letter}
+\def\FileKeyWords{\firstname \familyname, Cover Letter}
+
+\renewcommand{\ttdefault}{pcr}
+
+\usepackage{url}
+\urlstyle{tt}
+\ifpdf
+  \usepackage[pdftex,pdfborder=0,breaklinks,baseurl=http://,pdfpagemode=None,pdfstartview=XYZ,pdfstartpage=1]{hyperref}
+  \hypersetup{
+    pdfauthor   = \FileAuthor,%
+    pdftitle    = \FileTitle,%
+    pdfsubject  = \FileSubject,%
+    pdfkeywords = \FileKeyWords,%
+    pdfcreator  = \LaTeX,%
+    pdfproducer = \LaTeX}
+\else
+  \usepackage[dvips]{hyperref}
+\fi
+
+
+\begin{document}
+\sffamily   % for use with a résumé using sans serif fonts;
+%\rmfamily  % for use with a résumé using serif fonts;
+%\hfill%
+%\begin{minipage}[t]{.6\textwidth}
+\raggedright%
+{\bfseries \firstname~\familyname}\\[.35ex]
+\small{\itshape%
+Assistant Professor of Biomedical Engineering\\
+Institute of Imaging Science\\
+Vanderbilt University\\}
+\Letter~\href{mailto:will.grissom@vanderbilt.edu}{will.grissom@vanderbilt.edu}\\[2em]
+{\bfseries Dr. Lucio Frydman}\\[.35ex]
+\small{\itshape
+Editor, Journal of Magnetic Resonance\\[1em]}
+%\end{minipage}
+%
+%\begin{minipage}[t]{.51\textwidth}
+%\raggedright%
+%{\bfseries Chair of Graduate Admissions \\ 
+%Center for Biomedical Engineering \\
+%University of Kentucky}\\[.35ex]
+%\end{minipage}
+%\hfill % US style
+%\\[1em] % UK style
+\large
+\hfill\begin{minipage}[t]{\textwidth} % was 0.4\textwidth when addressee was there
+\raggedleft % US style
+\today
+%April 6, 2006 % US informal style
+%05/04/2006 % UK formal style
+\end{minipage}\\[2em]
+\raggedright
+Dear Dr. Frydman,\\[1.5em]
+%
+I would like to submit the manuscript `gr-MRI: A software package for magnetic resonance imaging using software defined radios' to be considered
+for publication as an Article in Journal of Magnetic Resonance. 
+It describes the development of an open software package that enables existing commercially-available
+FPGA-based software-defined radios to be used to transmit and receive RF signals and produce gradient pulses for MR imaging, 
+without requiring expertise in electronics or FPGA programming. 
+Our hope is that the software will enable researchers to rapidly develop custom MR spectrometers. 
+
+\par Thank you very much for considering this manuscript. 
+Please do not hesitate to contact me if you have any questions.\\[1.5em]
+% 
+%Yours sincerely,\\[2em] % if the opening is "Dear Mr(s) Doe,"
+Sincerely,\\[1.5em] % if the opening is "Dear Sir or Madam,"
+%
+%\vspace{3cm}
+%\includegraphics[scale=0.2]{/Users/guille/Documents/signature.png}\\[1.5em]
+{\bfseries Will Grissom}\\
+%
+\vfill%
+%{\slshape Enclosure}
+
+\end{document}

@@ -1,0 +1,7 @@
+Transmit/receive (T/R) switch parts:
+o	Metal enclosure (http://www.mcmaster.com/#3686k58/=1166r9f)
+o	Ceramic chip capacitors
+o	Surface mount inductors
+o	T/R Switch PCB
+o	SMA Connectors (http://www.digikey.com/product-detail/en/132416/ACX1921-ND/3053093)
+o	4x MBD301G Schottky diodes (http://www.onsemi.com/PowerSolutions/product.do?id=MBD301)

@@ -1,0 +1,13 @@
+TR,	                    3,              s
+CF,	                    4.0e6,         hz
+offset,	                    0,              hz
+p90,	                    200e-6,          s
+dead_time,	            10e-6,          s (must be greater than 10 µs)
+readout_length,	            4e-3,           s
+power,                      0.2,             V
+nav,	                    1,              int
+serial_ID,                  DR31R6U1,       string
+param_file,                 none,           file_name
+interactive_mode,	    1,              (0:off 1:on)
+num_proj,		    3,		    Number_of_Projections
+angl_inc,		    3,		    Angel_Increment_between_adjacent_Projections

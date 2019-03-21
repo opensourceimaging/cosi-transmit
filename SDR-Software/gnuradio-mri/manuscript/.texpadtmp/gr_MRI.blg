@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/christopherhasselwander/Desktop/gnuradio-mri/manuscript/.texpadtmp/gr_MRI.aux
+The style file: ../plos2015.bst
+Illegal, another \bibstyle command---line 101 of file /Users/christopherhasselwander/Desktop/gnuradio-mri/manuscript/.texpadtmp/gr_MRI.aux
+ : \bibstyle
+ :          {plos2015}
+I'm skipping whatever remains of this command
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: ../gr_MRI.bib
+Warning--entry type for "gnuradiovendors" isn't style-file defined
+--line 23 of file ../gr_MRI.bib
+Warning--empty author in gnuradiovendors
+Warning--empty author and editor in gnuradiovendors
+Warning--missing publisher in gnuradiovendors
+Warning--there's a month but no year in gnuradiovendors
+You've used 19 entries,
+            3170 wiz_defined-function locations,
+            756 strings with 7777 characters,
+and the built_in function-call counts, 28510 in all, are:
+= -- 3576
+> -- 269
+< -- 2
++ -- 136
+- -- 67
+* -- 2240
+:= -- 3096
+add.period$ -- 74
+call.type$ -- 19
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 23
+duplicate$ -- 2576
+empty$ -- 2666
+format.name$ -- 83
+if$ -- 6723
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 212
+newline$ -- 98
+num.names$ -- 18
+pop$ -- 368
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 372
+stack$ -- 0
+substring$ -- 5002
+swap$ -- 449
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 182
+width$ -- 21
+write$ -- 210
+(There was 1 error message)

@@ -1,0 +1,17 @@
+<block>
+  <name>Gated vector sink</name>
+  <key>Maran_gated_vector_sink</key>
+  <category>MARAN</category>
+  <import>import Maran</import>
+  <make>Maran.gated_vector_sink()</make>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+    <vlen>1</vlen>
+  </sink>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <vlen>1</vlen>
+  </sink>
+</block>

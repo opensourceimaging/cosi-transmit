@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section.1}{Necessary Hardware}{}% 1
+\BOOKMARK [1][-]{section.2}{Setup}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Hardware Setup}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Synchronize the two USRP1s}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Attach LFTX and LFRX daughterboards in appropriate motherboard slots}{subsection.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Build "amplifier" circuit for TXE pathway}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Connect SMA bulkhead cables to enclosure output/input slots and connect internal feedback cables}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Connect USRP1 outputs and inputs to external hardware}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{Software Setup}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{GNU Radio Setup}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Downloading and Installing gr-MRI}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{Editing GNU Radio settings for stock sequences}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Using gr-MRI}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Overview}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.2}{RF Pulse Calibration}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.3}{Gradient Calibration}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.4}{Stock Imaging Sequences}{section.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Slice Selective Gradient Echo: gradecho.py}{subsection.4.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Slice Selective Spin Echo: slicespin.py}{subsection.4.4}% 19
+\BOOKMARK [3][-]{subsubsection.4.4.3}{Slice Selective Inversion Recovery: invrecov.py}{subsection.4.4}% 20

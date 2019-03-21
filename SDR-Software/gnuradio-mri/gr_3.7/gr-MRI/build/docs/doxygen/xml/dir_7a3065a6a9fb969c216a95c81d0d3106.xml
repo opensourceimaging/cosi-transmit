@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7a3065a6a9fb969c216a95c81d0d3106" kind="dir">
+    <compoundname>MRI</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="gated__vector__sink_8h">gated_vector_sink.h</innerfile>
+    <innerfile refid="triggered__vector__source_8h">triggered_vector_source.h</innerfile>
+    <innerfile refid="triggered__vector__source__f_8h">triggered_vector_source_f.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/include/MRI/"/>
+  </compounddef>
+</doxygen>

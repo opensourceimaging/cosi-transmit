@@ -1,0 +1,107 @@
+\begin{thebibliography}{10}
+
+\bibitem{jie:hbmr:2005}
+Jie S, Qin X, Ying L, Gengying L.
+\newblock Home-built magnetic resonance imaging system (0.3 {T}) with a
+  complete digital spectrometer.
+\newblock Rev Sci Instrum. 2005;76:105101.
+
+\bibitem{wright:2002}
+Wright SM, Brown DG, Porter JR, Spence DC, Esparza E, Cole DC, et~al.
+\newblock A desktop magnetic resonance imaging system.
+\newblock MAGMA. 2002;13:177--185.
+
+\bibitem{peng:domp:2012}
+Peng WK, Chen L, Han J.
+\newblock Development of miniaturized, portable magnetic resonance relaxometry
+  system for point-of-care medical diagnosis.
+\newblock Rev Sci Instrum. 2012;83:095115.
+
+\bibitem{parnell:dpns:2008}
+Parnell SR, Woolley EB, Boag S, Frost CD.
+\newblock Digital pulsed {NMR} spectrometer for nuclear spin-polarized {$^3$He}
+  and other hyperpolarized gases.
+\newblock Meas Sci Technol. 2008;19:045601.
+
+\bibitem{bodurka:smmd:2004}
+Bodurka J, Ledden PJ, van Gelderen P, Chu R, de~Zwart JA, Morris D, et~al.
+\newblock Scalable multichannel {MRI} data acquisition system.
+\newblock Magn Reson Med. 2004;51(1):165--171.
+
+\bibitem{tang:adrm:2012}
+Tang W, Sun H, Wang W.
+\newblock A digital receiver module with direct data acquisition for magnetic
+  resonance imaigng systems.
+\newblock Rev Sci Instrum. 2012;p. 104701.
+
+\bibitem{stang:medusa:2012}
+Stang PP, Conolly SM, Santos JM, Pauly JM, Scott GC.
+\newblock Medusa: {A} scalable {MR} console using {USB}.
+\newblock IEEE Trans Med Imag. 2012;31(2):370--379.
+
+\bibitem{Toronto145}
+Stang P, Kerr AB, Pauly JM, Scott G.
+\newblock An extensible transmit array system using vector modulation and
+  measurement.
+\newblock In: Proceedings 16th Scientific Meeting, International Society for
+  Magnetic Resonance in Medicine, Toronto; 2008. p. 145.
+
+\bibitem{4915785}
+Grissom WA, Xu D, Kerr AB, Fessler JA, Noll DC.
+\newblock Fast Large-Tip-Angle Multidimensional and Parallel {RF} Pulse Design
+  in {MRI}.
+\newblock IEEE Trans Med Imaging. 2009 Oct;28(10):1548--1559.
+
+\bibitem{barmet:atrs:2009}
+Barmet C, De~Zanche N, Wilm BJ, Pruessmann KP.
+\newblock A transmit/receive system for magnetic field monitoring of in vivo
+  {MRI}.
+\newblock Magn Reson Med. 2009;62:269--276.
+
+\bibitem{sipila:2HTR:2011}
+Sipil{\"a} PT, Greding S, Wachutka G, Wiesinger F.
+\newblock {$^2$H} {Transmit}--Receive {NMR} probes for magnetic field
+  monitoring in {MRI}.
+\newblock Magn Reson Med. 2011;65:1498--1506.
+
+\bibitem{sipila:dmrf:2009}
+Sipil{\"a} PT, Schulte RF, Wachutka G, Wiesinger F.
+\newblock Digital multiband receiver for magnetic resonance.
+\newblock Conc Magn Reson B: Magn Reson Engin. 2009;35B(4):210--220.
+
+\bibitem{gengying:dnmr:2001}
+Gengying L, Yu J, Xiaolong Y, Yun J.
+\newblock Digital nuclear magnetic resonance spectrometer.
+\newblock Rev Sci Instrum. 2001;72:4460.
+
+\bibitem{takeda:ahif:2007}
+Takeda K.
+\newblock A highly integrated {FPGA}-based nuclear magnetic resonance
+  spectrometer.
+\newblock Rev Sci Instrum. 2007;78:033103.
+
+\bibitem{opencorenmr}
+Takeda K.
+\newblock {OPENCORE NMR:} {Open-source} core modules for implementing an
+  integrated {FPGA}-based {NMR} spectrometer.
+\newblock J Magn Reson. 2008;192:218--229.
+
+\bibitem{tang:2011}
+Tang W, Wang W.
+\newblock A single-board {NMR} spectrometer based on a software defined radio
+  architecture.
+\newblock Meas Sci Technol. 2011;22:015902.
+
+\bibitem{gnuradiovendors}
+A Quick Guide to Hardware and {GNU Radio};.
+\newblock Available from:
+  \url{https://gnuradio.org/redmine/projects/gnuradio/wiki/Hardware} [cited
+  December, 2015].
+
+\bibitem{PER-GRA:2007}
+P\'erez F, Granger BE.
+\newblock {IP}ython: a System for Interactive Scientific Computing.
+\newblock Computing in Science and Engineering. 2007 May;9(3):21--29.
+\newblock Available from: \url{http://ipython.org}.
+
+\end{thebibliography}

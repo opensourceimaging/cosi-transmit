@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,_MRI_swig.so -o _MRI_swig.so CMakeFiles/_MRI_swig.dir/MRI_swigPYTHON_wrap.cxx.o -lpython2.7 ../lib/libgnuradio-MRI.so -lboost_filesystem -lboost_system /usr/local/lib/libgnuradio-runtime.so /usr/local/lib/libgnuradio-pmt.so -Wl,-rpath,/home/cosi/gnuradio-mri/gr_3.7/gr-MRI/build/lib:/usr/local/lib: 
