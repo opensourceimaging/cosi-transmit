@@ -1,1 +1,1 @@
-The RFPA documentation/files will be uploaded soon. 
+We have too many open projects in parallel at the moment, hence the documentation of the power amp is very raw, with the next rebuild we will improve that. However we uploaded already all the schematics and some basic documentation in order to rebuild the amp. If you do build the amp it would be highly appreciated if you document the process/partlist etc so that we can upload it here (of course we will add you to the contributor list). That would really help the next users in their rebuilding process. 
